@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage>
             // Height
             MySlider(
               label: 'Height',
-              unit: 'kg',
+              unit: 'cm',
               min: 120.0,
               max: 200.0,
               start: 160.0,
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage>
             // Weight
             MySlider(
               label: 'Weight',
-              unit: 'cm',
+              unit: 'kg',
               min: 20.0,
               max: 150.0,
               start: 60,
